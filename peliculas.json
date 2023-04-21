@@ -1,0 +1,6 @@
+[
+    { "titulo": "Tesis sobre un homicidio", "portada": "./pelis/peli-01.jpg", "link": "https://www.youtube.com/watch?v=ebqdXwb_51M&ab_channel=Bjgtjme-Pel%C3%ADculasGratis", "estreno": "2013", "genero": "Intriga. Thriller. Crimen. Thriller psicológico."},
+    { "titulo": "Transporter 3", "portada": "./pelis/peli-02.jpg", "link": "https://www.youtube.com/watch?v=ebqdXwb_51M&ab_channel=Bjgtjme-Pel%C3%ADculasGratis", "estreno": "2008", "genero": "Acción. Secuela."},
+    { "titulo": "Asalto en Wall Street", "portada": "./pelis/peli-03.jpg", "link": "https://www.youtube.com/watch?v=2ecFbWxLUIQ&t=5s&ab_channel=AdrenalinaFreezoneMX", "estreno": "2013", "genero": "Thriller. Acción."},
+    { "titulo": "Le llamaban Trinidad", "portada": "./pelis/peli-04.jpg", "link": "./videos/peli-01.html", "estreno": "1970", "genero": "Western. Comedia."}
+]

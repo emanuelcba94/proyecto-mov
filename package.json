@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-mov",
+  "version": "1.0.0",
+  "description": "sitio de peliculas, series, programas en vivos y mas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["peliculas"],
+  "author": "Emanuel Bonardo",
+  "license": "ISC"
+}
