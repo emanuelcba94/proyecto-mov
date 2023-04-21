@@ -44,6 +44,37 @@ cerrarNav.onclick = () =>{
     navBarra.classList.remove("active");
 }
 
+// ------------------- slider pagina inicio ------------------- // 
+const sliderImg = document.querySelector(".slider-img")
+
+const imgSlider = [
+    "slider/slider-01.jpg", 
+    "slider/slider-02.jpg",
+    "slider/slider-03.jpg",
+]
+
+let nro = 0;
+
+function next() {
+    nro++; 
+    if(nro >= imgSlider.length) {
+        nro = 0, 
+        sliderImg.src = imgSlider[nro];
+    } else {
+        sliderImg.src = imgSlider[nro];
+    }
+}
+
+function back() {
+    nro--;
+    if(nro < 0) {
+        nro = imgSlider.length-1;
+        sliderImg.src = imgSlider[nro];
+    } else {
+        sliderImg.src = imgSlider[nro];
+    }
+}
+
 
 // ------------------- peliculas JSON y fetch ------------------- // 
 const contenedorPeliculas = document.querySelector("#contenedor-peliculas");
@@ -95,8 +126,4 @@ fetch("./peliculas.json")
     //     <a href="https://www.youtube.com/watch?v=ebqdXwb_51M&ab_channel=Bjgtjme-Pel%C3%ADculasGratis"><button class="pelicula-ver">ver</button></a>
     // </div>
     // </div>  
-
-
-
-
 

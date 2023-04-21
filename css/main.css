@@ -152,6 +152,63 @@ nav ul li a {
 
 /************************ pagina inicio ************************/
 
+.titulo-inicio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--clr-cajas);
+    color: var(--clr-cajas);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.slider-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.slider-btn button {
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--clr-cajas);
+    cursor: pointer;
+}
+
+.slider-btn button:hover {
+    color: #ff730088;
+}
+
+.slider-btn button i {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
 
 
 
